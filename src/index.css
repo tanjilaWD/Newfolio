@@ -119,6 +119,31 @@
     color: #fff;
     font-weight: 600;
 }
+/* ----------------------------
+        client-section
+------------------------------*/
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client .client_left h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #121314;
+}
+.client .client_left p{
+    font-size: 16px;
+    color:#5E6971 ;
+    padding-top: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.client .client_right{
+   
+}
 
 
 
