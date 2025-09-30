@@ -5,7 +5,7 @@ const Header = () => {
        <section className="container">
             <div className="header">
                 <div className="header_left">
-                    <img src="../../public/image/logo/photo.png" alt="" />
+                    <img src="../../public/image/logo/logo.png" alt="" />
                     <h2>Newfolio</h2>
                 </div>
                 <div className="header_right">
