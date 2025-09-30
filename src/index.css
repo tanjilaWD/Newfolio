@@ -87,9 +87,38 @@
     padding:  80px;
 }
 .hero .hero_right img{
-    width:100% ;
+    width:350px;
     object-fit: cover;
     margin-top: -80px;
     margin-bottom: -95px;
 }
+.hero .hero_left .btn{
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+.hero .hero_left .btn .btn1{
+    border: none;
+    background-color: #F3DB61;
+    padding: 10px 12px;
+    border-radius: 6px;
+    display: flex;
+     align-items: center; 
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 8px;
+}
+.hero .hero_left .btn .btn2{
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
 

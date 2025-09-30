@@ -6,8 +6,8 @@ const Hero = () => {
                     <h1>👋 Hey, I’m Tanjila <br /> Full-Stack Engineer.</h1>
                     <p>Full Stack Frontend Developer and Content Writing Based on LA. I specialize in Bug Fixing, Responsive Web Design, and Visual Development.</p>
                     <div className="btn">
-                        <button>Hire me <img src="../../public/image/hero_icon/vector.png" alt="icon" /></button>
-                        <button><img src="../../public/image/hero_icon/play.png" alt="icon" />Play Intro</button>
+                        <button className="btn1">Hire me <img src="../../public/image/hero_icon/ArrowRight.png" alt="icon" /></button>
+                        <button className="btn2"><img src="../../public/image/hero_icon/play.png" alt="icon" />Play Intro</button>
                     </div>
                 </div>
                 <div className="hero_right">
