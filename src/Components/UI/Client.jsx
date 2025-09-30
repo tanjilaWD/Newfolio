@@ -10,6 +10,12 @@ const Client = () => {
 
             </div>
             <div className="client_right">
+                <img src="../../public/image/client/amazon.png " alt="image" />
+                <img src="../../public/image/client/google.png " alt="image" />
+                <img src="../../public/image/client/spotify.png " alt="image" />
+                <img src="../../public/image/client/dribble.png " alt="image" />
+                <img src="../../public/image/client/microsoft.png " alt="image" />
+                <img src="../../public/image/client/linkden.png " alt="image" />
                 
             </div>
         </div>
