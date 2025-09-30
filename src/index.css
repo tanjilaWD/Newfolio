@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 /* ----------------------------
-        header
+        header-section
 ------------------------------*/
 .header{
     display: flex;
@@ -58,5 +58,8 @@
  .header .header_right ul li a:hover{
     color: #132238;
     font-weight: 600;
-    
 }
+/* ----------------------------
+        hero-section
+------------------------------*/
+
