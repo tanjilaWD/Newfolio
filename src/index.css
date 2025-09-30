@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ----------------------------
+        header
+------------------------------*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header_left{
+    display: flex;
+    align-items: center;
+}
+.header .header_right ul{
+    display: flex;
+    align-items: center;
+}
+.header .header_right ul li a{
+    text-decoration: none;
+    color:#556070;
+}
+.header .header_right ul li{
+    list-style: none;
+
+}
