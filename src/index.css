@@ -62,4 +62,34 @@
 /* ----------------------------
         hero-section
 ------------------------------*/
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#236C44;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.hero .hero_left h1{
+    font-size: 55px;
+    color:#fff;
+    padding-bottom: 20px;
+}
+.hero .hero_left p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(230, 227, 227);
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+.hero .hero_left{
+    padding:  80px;
+}
+.hero .hero_right img{
+    width:100% ;
+    object-fit: cover;
+    margin-top: -80px;
+    margin-bottom: -95px;
+}
 
