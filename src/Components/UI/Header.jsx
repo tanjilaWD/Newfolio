@@ -17,12 +17,11 @@ const Header = () => {
                         <li><a href="#">Testimonial</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Article</a></li>
+                        <li><a href="#" class="contact-button">CONTACT</a></li>
                     </ul>
-
+                    </div>
                 </div>
-            </div>
-
-        </section>
+            </section>
     );
 };
 

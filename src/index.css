@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .container{
     max-width: 1140px;
@@ -12,12 +13,23 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:  space-between;
+    margin-top: 25px;
 }
 .header .header_left{
     display: flex;
     align-items: center;
 }
+.header .header_left img{
+    padding-right: 8px;
+    width: 48px;
+    height: 48px;
+}
+.header .header_left h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .header .header_right ul{
     display: flex;
     align-items: center;
@@ -25,8 +37,26 @@
 .header .header_right ul li a{
     text-decoration: none;
     color:#556070;
+    padding-right: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s ease-in-out;
+    
 }
 .header .header_right ul li{
     list-style: none;
-
+}
+.header .header_right .contact-button {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#121314;
+    padding: 12px;
+    background-color: #F3DB61;
+     
+}
+ .header .header_right ul li a:hover{
+    color: #132238;
+    font-weight: 600;
+    
 }
