@@ -272,6 +272,36 @@
 .service_section .img_section .arrow{
     padding-left: 8px;
 }
+/* ----------------------------
+        Achievement-section
+------------------------------*/
+.achievement_section .record{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.achievement_section .record .number{
+   display: flex;
+   align-items: center;
+   text-align:center ;
+   margin: 0 auto;
+}
+.achievement_section .record .number h3{
+    margin-top:17px ;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #121314;
+}
+.achievement_section .record .number p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#5E6971;
+}
+
 
 
 
