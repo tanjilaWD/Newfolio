@@ -200,6 +200,40 @@
     align-items: center;
     justify-content: center;
     padding-top: 25px;
+    padding-bottom: 50px;
+}
+/* ----------------------------
+        service-section
+------------------------------*/
+.service_section{
+    background-color: #E9F0EC;   
+}
+.service_section .text_section{
+    text-align: center;
+    padding-top:50px ;
+}
+.service_section .text_section h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.service_section .text_section p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#485057;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.service_section .img_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+.service_section .img_section .Service_Card{
+    width: 300px;
+    background-color: #fff;
 }
 
 
