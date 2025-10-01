@@ -389,12 +389,42 @@
 ------------------------------*/
 .idea{
     background-color: #0E2B1B;
+    display: flex;
+    padding: 80px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.idea .idea_left{
+    width: 50%;
 }
 .idea .idea_left h2{
     font-size: 40px;
     font-weight: 700;
     color: #fff;
 }
+.idea .idea_left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #87909D;
+    line-height: 28px;
+    padding-top: 30px;
+}
+.idea .idea_left .BtnIdea {
+    display: inline-flex;
+   align-items: center;
+   gap: 8px;          
+   width: auto;      
+   padding: 10px 20px;
+   background: #F3DB61;
+   color: #121314;
+   border-radius: 6px;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-top: 15px;
+}
+
 
 
 
