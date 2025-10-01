@@ -450,8 +450,46 @@
    font-weight: 500;
    padding-top: 5px;
 }
-
-
+/* ----------------------------
+        Footer-section
+------------------------------*/
+.footer{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.footer_left .about{
+    display: flex;
+    align-items: center;
+}
+.footer_left .about img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #236C44;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.footer_left .about h3{
+    font-size: 22px;
+    color:#121314;
+    font-weight: 700;
+}
+.footer_left .address p{
+    font-size: 16px;
+    color:#424E60;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 26px;
+}
+/* ----------------------------
+        CopyRight-section
+------------------------------*/
+.copyRtght p{
+    text-align: center;
+    font-size: 14px;
+    color:#697484;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
 
 
 

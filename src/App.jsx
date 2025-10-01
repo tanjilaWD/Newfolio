@@ -1,6 +1,7 @@
 import Achievement from "./Components/UI/Achievement";
 import CaseStudy from "./Components/UI/CaseStudy";
 import Client from "./Components/UI/Client";
+import CopyRight from "./Components/UI/CopyRight";
 import Footer from "./Components/UI/Footer";
 import Header from "./Components/UI/Header";
 import Hero from "./Components/UI/Hero";
@@ -21,6 +22,7 @@ const App = () => {
              <Testimonial/>
              <Idea/>
              <Footer/>
+             <CopyRight/>
         </div>
     );
 };
