@@ -2,7 +2,7 @@
 
 const Header = () => {
     return (
-        <div className="abc">
+       
        <section className="container">
             <div className="header">
                 <div className="header_left">
@@ -23,7 +23,7 @@ const Header = () => {
                     </div>
                 </div>
             </section>
-            </div>
+           
     );
 };
 

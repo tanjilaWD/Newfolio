@@ -7,10 +7,7 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-/* .abc 
- {
-    background: linear-gradient(to bottom, #ffffff, #e9f0ec);
-} */
+
 /* ----------------------------
         header-section
 ------------------------------*/
@@ -25,9 +22,11 @@
     align-items: center;
 }
 .header .header_left img{
-    padding-right: 8px;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #236C44;
+    border-radius: 50%;
+    margin-right: 6px;
 }
 .header .header_left h2{
     font-size: 24px;
@@ -145,6 +144,15 @@
     font-weight: 400;
     line-height: 24px;
 }
+.client .client_right .image{
+    background-color: #E9F0EC;
+    margin: 10px;
+    width: 120px;
+    height: 40px;
+    padding:12px;
+    border-radius: 10px;
+}
+
 /* ----------------------------
         caseStuday-section
 ------------------------------*/
@@ -176,12 +184,16 @@
 .caseStudy .caseContent .icon1{
    border: 2px solid #F3DB61;
    border-radius: 50%;
-   
-   
+   width: 16px;
+   padding: 5px;
+   margin-right: 15px;
 }
 .caseStudy .caseContent .icon2{
    background-color: #F3DB61;
    border-radius: 50%;
+    border: 2px solid #F3DB61;
+   width: 16px;
+   padding: 5px;
 }
 .caseStudy .pagination{
     display: flex;
