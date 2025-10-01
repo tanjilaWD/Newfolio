@@ -384,7 +384,17 @@
     margin-top: 15px;
     object-fit: cover;
 }
-
+/* ----------------------------
+        Idea-section
+------------------------------*/
+.idea{
+    background-color: #0E2B1B;
+}
+.idea .idea_left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
 
 
 
