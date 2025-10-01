@@ -5,10 +5,10 @@ const Testimonial = () => {
         <section className="testimonial_section">
             <div className="testimonial">
                 <div className="testimonial_left">
-
+                   
                 </div>
                 <div className="testimonial_right">
-                    
+
                 </div>
             </div>
 
