@@ -23,6 +23,7 @@ const Idea = () => {
                         <h4>tanjilabithi12@gmail.com</h4>
                     </div>
                     </div>
+                    
                     <div className="call">
                     <div className="image">
                         <img src="../../public/image/idea/PhoneCall.png" alt="Image" />

@@ -393,6 +393,7 @@
     padding: 80px;
     border-radius: 16px;
     justify-content: space-between;
+    align-items: center;
 }
 .idea .idea_left{
     width: 50%;
@@ -424,6 +425,32 @@
    text-transform: uppercase;
    margin-top: 15px;
 }
+.idea .idea_right .mail,
+.call{
+    display: flex;
+    background-color:#154129 ;
+    padding: 20px;
+    border-radius: 8px;
+    gap:8px;
+}
+.idea .idea_right .mail{
+    margin-bottom: 20px;
+}
+.idea .idea_right .mail p,
+.call p{
+   font-size: 14px;
+   color: #fff;
+   font-weight: 500;
+   text-transform: uppercase;
+}
+.idea .idea_right .mail h4,
+.call h4{
+   font-size: 20px;
+   color: #fff;
+   font-weight: 500;
+   padding-top: 5px;
+}
+
 
 
 
