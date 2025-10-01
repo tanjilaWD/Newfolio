@@ -1,3 +1,4 @@
+import Achievement from "./Components/UI/Achievement";
 import CaseStudy from "./Components/UI/CaseStudy";
 import Client from "./Components/UI/Client";
 import Header from "./Components/UI/Header";
@@ -13,6 +14,7 @@ const App = () => {
              <Client/>
              <CaseStudy/>
              <Service/>
+             <Achievement/>
         </div>
     );
 };
