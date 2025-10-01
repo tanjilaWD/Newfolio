@@ -160,6 +160,35 @@
 .caseStudy .caseStudy_list .caseStudy_card:last-child{
     padding-right: 0;
 }
+.caseStudy .content h2{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.caseStudy .content p{
+    font-size: 16px;
+    line-height: 25px;
+    color:#3E5985;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.caseStudy .caseContent .icon1{
+   border: 2px solid #F3DB61;
+   border-radius: 50%;
+   
+   
+}
+.caseStudy .caseContent .icon2{
+   background-color: #F3DB61;
+   border-radius: 50%;
+}
+.caseStudy .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
 
 
 
