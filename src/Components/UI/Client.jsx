@@ -2,6 +2,7 @@
 
 const Client = () => {
     return (
+        <div className="abc">
        <section className="container">
         <div className="client">
             <div className="client_left">
@@ -21,6 +22,7 @@ const Client = () => {
         </div>
 
        </section>
+       </div>
     );
 };
 

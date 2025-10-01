@@ -1,5 +1,6 @@
 const Hero = () => {
     return (
+        <div className="abc">
         <section className="container">
             <div className="hero">
                 <div className="hero_left">
@@ -17,6 +18,7 @@ const Hero = () => {
             </div>
 
         </section>
+        </div>
     );
 };
 
