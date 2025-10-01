@@ -56,6 +56,7 @@
     color:#121314;
     padding: 12px;
     background-color: #F3DB61;
+    border-radius: 8px;
      
 }
  .header .header_right ul li a:hover{
@@ -231,9 +232,45 @@
     width: 1140px;
     margin: 0 auto;
 }
-.service_section .img_section .Service_Card{
+.service_section .img_section .abc{
+ width: 295px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+} 
+.service_section .img_section .card{
     width: 300px;
     background-color: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.service_section .img_section h3{
+    font-size: 20px;
+    color:#132238;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.service_section .img_section p{
+    font-size:14px;
+    color:#556070;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    line-height: 22px;
+}
+.service_section .img_section a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #236C44;
+    display: flex;
+    align-items: center;
+}
+.service_section .img_section .arrow{
+    padding-left: 8px;
 }
 
 
