@@ -301,8 +301,41 @@
     font-weight: 400;
     color:#5E6971;
 }
-
-
+/* ----------------------------
+        Testimonial-section
+------------------------------*/
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.testimonial .testimonial_left{
+    width: 50%;
+}
+.testimonial .testimonial_left .client1 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.testimonial .testimonial_left .client1 p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#556070;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.testimonial .testimonial_left .quote{
+    padding: 45px;
+    background-color: #FAF1C0;
+    border-radius: 12px;
+}
+.testimonial .testimonial_left .quote p{
+    font-size: 20px;
+    color:#132238;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 
 
