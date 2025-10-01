@@ -8,7 +8,7 @@ const Testimonial = () => {
 
                    <div className="client1">
                     <h2>Client Testimonial</h2>
-                    <p>Praesent interdum eu magna a imperdiet. Ut orci ipsum, rutrum id  tortor sit amet,<br /> mattis cursus libero. Phasellus facilisis malesuada nibh vel commodo.</p>
+                    <p>Praesent interdum eu magna a imperdiet. Ut orci ipsum, rutrum id  tortor sit amet, mattis cursus libero. Phasellus facilisis malesuada nibh vel commodo.</p>
                    </div>
                    
                    <div className="quote">
@@ -17,16 +17,18 @@ const Testimonial = () => {
                    </div>
 
                    <div className="founder">
+                    <div className="test">
                     <div className="img">
                       <img src="../../public/image/testimonial/Rectangle.png" alt="Image" />
                     </div>
                     <div className="content">
                         <h3>Cameron Williamson</h3>
-                        <p>Founder of Relik</p>
+                        <p>Founder of <span>Relik</span></p>
+                    </div>
                     </div>
                     <div className="icon">
-                        <img src="../../public/image/testimonial/ArrowRight.png" alt="Image" />
-                        <img src="../../public/image/testimonial/ArrowRight1.png" alt="Image"/>
+                        <img className="icon1" src="../../public/image/testimonial/ArrowRight.png" alt="Image" />
+                        <img className="icon2" src="../../public/image/testimonial/ArrowRight1.png" alt="Image"/>
                     </div>
 
                    </div>

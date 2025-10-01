@@ -192,7 +192,7 @@
 .caseStudy .caseContent .icon2{
    background-color: #F3DB61;
    border-radius: 50%;
-    border: 2px solid #F3DB61;
+   border: 2px solid #F3DB61;
    width: 16px;
    padding: 5px;
 }
@@ -309,6 +309,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 50px;
+    gap: 80px;
 }
 .testimonial .testimonial_left{
     width: 50%;
@@ -335,6 +337,52 @@
     color:#132238;
     font-weight: 400;
     line-height: 30px;
+}
+.testimonial .testimonial_left .founder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.testimonial .testimonial_left .founder .test{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.testimonial .testimonial_left .founder .test .content h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #121314;
+}
+.testimonial .testimonial_left .founder .test .content p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5E6971;
+    padding-top: 8px;
+}
+.testimonial .testimonial_left .founder .test .content span{
+    color: #236C44;
+    font-weight: 600;
+}
+.testimonial .testimonial_left .founder .icon1{
+    border: 2px solid #F3DB61;
+   border-radius: 50%;
+   width: 16px;
+   padding: 5px;
+   margin-right: 15px;
+}
+.testimonial .testimonial_left .founder .icon2{
+   background-color: #F3DB61;
+   border-radius: 50%;
+   border: 2px solid #F3DB61;
+   width: 16px;
+   padding: 5px;
+}
+.testimonial .testimonial_right img{
+    background-color: #236C44;
+    border-radius:8px;
+    margin-top: 15px;
+    object-fit: cover;
 }
 
 
